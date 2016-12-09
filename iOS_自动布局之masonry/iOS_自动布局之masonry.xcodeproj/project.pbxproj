@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465C1CDFECD83EB6DEA1930A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0B8C617FEF812D9C76D35E /* libPods.a */; };
+		73622D7D1D2B4AF70089041C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73622D7C1D2B4AF70089041C /* main.m */; };
+		73622D801D2B4AF70089041C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73622D7F1D2B4AF70089041C /* AppDelegate.m */; };
+		73622D831D2B4AF70089041C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73622D821D2B4AF70089041C /* ViewController.m */; };
+		73622D861D2B4AF70089041C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73622D841D2B4AF70089041C /* Main.storyboard */; };
+		73622D881D2B4AF70089041C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73622D871D2B4AF70089041C /* Assets.xcassets */; };
+		73622D8B1D2B4AF70089041C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73622D891D2B4AF70089041C /* LaunchScreen.storyboard */; };
+		73622D961D2B4AF70089041C /* iOS______masonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73622D951D2B4AF70089041C /* iOS______masonryTests.m */; };
+		73622DA11D2B4AF70089041C /* iOS______masonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73622DA01D2B4AF70089041C /* iOS______masonryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73622D921D2B4AF70089041C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73622D701D2B4AF70089041C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73622D771D2B4AF70089041C;
+			remoteInfo = "iOS_自动布局之masonry";
+		};
+		73622D9D1D2B4AF70089041C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73622D701D2B4AF70089041C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73622D771D2B4AF70089041C;
+			remoteInfo = "iOS_自动布局之masonry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF28AC27DAC15E6D58BD204 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		73622D781D2B4AF70089041C /* iOS_自动布局之masonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_自动布局之masonry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73622D7C1D2B4AF70089041C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73622D7E1D2B4AF70089041C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73622D7F1D2B4AF70089041C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73622D811D2B4AF70089041C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73622D821D2B4AF70089041C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73622D851D2B4AF70089041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73622D871D2B4AF70089041C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73622D8A1D2B4AF70089041C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73622D8C1D2B4AF70089041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73622D911D2B4AF70089041C /* iOS_自动布局之masonryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS_自动布局之masonryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73622D951D2B4AF70089041C /* iOS______masonryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______masonryTests.m"; sourceTree = "<group>"; };
+		73622D971D2B4AF70089041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73622D9C1D2B4AF70089041C /* iOS_自动布局之masonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS_自动布局之masonryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73622DA01D2B4AF70089041C /* iOS______masonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______masonryUITests.m"; sourceTree = "<group>"; };
+		73622DA21D2B4AF70089041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0B8C617FEF812D9C76D35E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1BDC2D03C09DA7147759E9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73622D751D2B4AF70089041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465C1CDFECD83EB6DEA1930A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D8E1D2B4AF70089041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D991D2B4AF70089041C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF984718CA8483FF3207C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B1BDC2D03C09DA7147759E9 /* Pods.debug.xcconfig */,
+				3DF28AC27DAC15E6D58BD204 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F5F47878A85D299D1FC78CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0B8C617FEF812D9C76D35E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73622D6F1D2B4AF70089041C = {
+			isa = PBXGroup;
+			children = (
+				73622D7A1D2B4AF70089041C /* iOS_自动布局之masonry */,
+				73622D941D2B4AF70089041C /* iOS_自动布局之masonryTests */,
+				73622D9F1D2B4AF70089041C /* iOS_自动布局之masonryUITests */,
+				73622D791D2B4AF70089041C /* Products */,
+				3BF984718CA8483FF3207C62 /* Pods */,
+				3F5F47878A85D299D1FC78CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73622D791D2B4AF70089041C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73622D781D2B4AF70089041C /* iOS_自动布局之masonry.app */,
+				73622D911D2B4AF70089041C /* iOS_自动布局之masonryTests.xctest */,
+				73622D9C1D2B4AF70089041C /* iOS_自动布局之masonryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73622D7A1D2B4AF70089041C /* iOS_自动布局之masonry */ = {
+			isa = PBXGroup;
+			children = (
+				73622D7E1D2B4AF70089041C /* AppDelegate.h */,
+				73622D7F1D2B4AF70089041C /* AppDelegate.m */,
+				73622D811D2B4AF70089041C /* ViewController.h */,
+				73622D821D2B4AF70089041C /* ViewController.m */,
+				73622D841D2B4AF70089041C /* Main.storyboard */,
+				73622D871D2B4AF70089041C /* Assets.xcassets */,
+				73622D891D2B4AF70089041C /* LaunchScreen.storyboard */,
+				73622D8C1D2B4AF70089041C /* Info.plist */,
+				73622D7B1D2B4AF70089041C /* Supporting Files */,
+			);
+			path = "iOS_自动布局之masonry";
+			sourceTree = "<group>";
+		};
+		73622D7B1D2B4AF70089041C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73622D7C1D2B4AF70089041C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73622D941D2B4AF70089041C /* iOS_自动布局之masonryTests */ = {
+			isa = PBXGroup;
+			children = (
+				73622D951D2B4AF70089041C /* iOS______masonryTests.m */,
+				73622D971D2B4AF70089041C /* Info.plist */,
+			);
+			path = "iOS_自动布局之masonryTests";
+			sourceTree = "<group>";
+		};
+		73622D9F1D2B4AF70089041C /* iOS_自动布局之masonryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73622DA01D2B4AF70089041C /* iOS______masonryUITests.m */,
+				73622DA21D2B4AF70089041C /* Info.plist */,
+			);
+			path = "iOS_自动布局之masonryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73622D771D2B4AF70089041C /* iOS_自动布局之masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73622DA51D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonry" */;
+			buildPhases = (
+				AE9BFEF6B0FD85ECDA0D6B99 /* Check Pods Manifest.lock */,
+				73622D741D2B4AF70089041C /* Sources */,
+				73622D751D2B4AF70089041C /* Frameworks */,
+				73622D761D2B4AF70089041C /* Resources */,
+				C291F48AB90670532530B13D /* Embed Pods Frameworks */,
+				FBF41F3EA025DB5082839B7C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS_自动布局之masonry";
+			productName = "iOS_自动布局之masonry";
+			productReference = 73622D781D2B4AF70089041C /* iOS_自动布局之masonry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73622D901D2B4AF70089041C /* iOS_自动布局之masonryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73622DA81D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonryTests" */;
+			buildPhases = (
+				73622D8D1D2B4AF70089041C /* Sources */,
+				73622D8E1D2B4AF70089041C /* Frameworks */,
+				73622D8F1D2B4AF70089041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73622D931D2B4AF70089041C /* PBXTargetDependency */,
+			);
+			name = "iOS_自动布局之masonryTests";
+			productName = "iOS_自动布局之masonryTests";
+			productReference = 73622D911D2B4AF70089041C /* iOS_自动布局之masonryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73622D9B1D2B4AF70089041C /* iOS_自动布局之masonryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73622DAB1D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonryUITests" */;
+			buildPhases = (
+				73622D981D2B4AF70089041C /* Sources */,
+				73622D991D2B4AF70089041C /* Frameworks */,
+				73622D9A1D2B4AF70089041C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73622D9E1D2B4AF70089041C /* PBXTargetDependency */,
+			);
+			name = "iOS_自动布局之masonryUITests";
+			productName = "iOS_自动布局之masonryUITests";
+			productReference = 73622D9C1D2B4AF70089041C /* iOS_自动布局之masonryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73622D701D2B4AF70089041C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "高宇";
+				TargetAttributes = {
+					73622D771D2B4AF70089041C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					73622D901D2B4AF70089041C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 73622D771D2B4AF70089041C;
+					};
+					73622D9B1D2B4AF70089041C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 73622D771D2B4AF70089041C;
+					};
+				};
+			};
+			buildConfigurationList = 73622D731D2B4AF70089041C /* Build configuration list for PBXProject "iOS_自动布局之masonry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73622D6F1D2B4AF70089041C;
+			productRefGroup = 73622D791D2B4AF70089041C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73622D771D2B4AF70089041C /* iOS_自动布局之masonry */,
+				73622D901D2B4AF70089041C /* iOS_自动布局之masonryTests */,
+				73622D9B1D2B4AF70089041C /* iOS_自动布局之masonryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73622D761D2B4AF70089041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73622D8B1D2B4AF70089041C /* LaunchScreen.storyboard in Resources */,
+				73622D881D2B4AF70089041C /* Assets.xcassets in Resources */,
+				73622D861D2B4AF70089041C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D8F1D2B4AF70089041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D9A1D2B4AF70089041C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE9BFEF6B0FD85ECDA0D6B99 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C291F48AB90670532530B13D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF41F3EA025DB5082839B7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73622D741D2B4AF70089041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73622D831D2B4AF70089041C /* ViewController.m in Sources */,
+				73622D801D2B4AF70089041C /* AppDelegate.m in Sources */,
+				73622D7D1D2B4AF70089041C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D8D1D2B4AF70089041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73622D961D2B4AF70089041C /* iOS______masonryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73622D981D2B4AF70089041C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73622DA11D2B4AF70089041C /* iOS______masonryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73622D931D2B4AF70089041C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73622D771D2B4AF70089041C /* iOS_自动布局之masonry */;
+			targetProxy = 73622D921D2B4AF70089041C /* PBXContainerItemProxy */;
+		};
+		73622D9E1D2B4AF70089041C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73622D771D2B4AF70089041C /* iOS_自动布局之masonry */;
+			targetProxy = 73622D9D1D2B4AF70089041C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73622D841D2B4AF70089041C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73622D851D2B4AF70089041C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73622D891D2B4AF70089041C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73622D8A1D2B4AF70089041C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73622DA31D2B4AF70089041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73622DA41D2B4AF70089041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73622DA61D2B4AF70089041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1BDC2D03C09DA7147759E9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS_自动布局之masonry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73622DA71D2B4AF70089041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF28AC27DAC15E6D58BD204 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS_自动布局之masonry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73622DA91D2B4AF70089041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS_自动布局之masonryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_自动布局之masonry.app/iOS_自动布局之masonry";
+			};
+			name = Debug;
+		};
+		73622DAA1D2B4AF70089041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS_自动布局之masonryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_自动布局之masonry.app/iOS_自动布局之masonry";
+			};
+			name = Release;
+		};
+		73622DAC1D2B4AF70089041C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS_自动布局之masonryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS_自动布局之masonry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		73622DAD1D2B4AF70089041C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS_自动布局之masonryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hejia.iOS------masonryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS_自动布局之masonry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73622D731D2B4AF70089041C /* Build configuration list for PBXProject "iOS_自动布局之masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73622DA31D2B4AF70089041C /* Debug */,
+				73622DA41D2B4AF70089041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73622DA51D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73622DA61D2B4AF70089041C /* Debug */,
+				73622DA71D2B4AF70089041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73622DA81D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73622DA91D2B4AF70089041C /* Debug */,
+				73622DAA1D2B4AF70089041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73622DAB1D2B4AF70089041C /* Build configuration list for PBXNativeTarget "iOS_自动布局之masonryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73622DAC1D2B4AF70089041C /* Debug */,
+				73622DAD1D2B4AF70089041C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73622D701D2B4AF70089041C /* Project object */;
+}
